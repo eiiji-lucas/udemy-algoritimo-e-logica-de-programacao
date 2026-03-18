@@ -1,5 +1,5 @@
 #Um pescador comprou um microcomputador para calcular o rendimento diario do seu trabalho. 
-#Quando ele pesca o excente de 50 kilos ele precisa pagar R$ 4 por kilo.
+#Quando ele pesca o excerente de 50 kilos ele precisa pagar R$ 4 por kilo.
 #Faça um algoritmo onde é calculado o excedente e a multa.
 
 #entrada
