@@ -24,8 +24,8 @@ public class exer05 {
         } else {
             multa = 0;
             e = "0";
-            System.out.prinln("Multas: " + multa);
-            System.out.prinfln("Excesso: " + e);
+            System.out.printf("Multas: " + multa);
+            System.out.printf("Excesso: " + e);
         }
     ler.close();
     }
