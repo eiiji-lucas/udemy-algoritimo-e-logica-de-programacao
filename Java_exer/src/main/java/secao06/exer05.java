@@ -13,10 +13,20 @@ public class exer05 {
     String e = "excedente";
     Scanner ler = new Scanner(System.in);
 
+    //Entradas
+    System.out.println("Informe o peso dos peixes: ");
+    p=ler.nextFloat();
+
     //processamento
-    System.out.println("Qual o peso pescado no dia de hoje: ");
-
-
+        if (p < 50) {
+            multa = (float)(p - 50) + (float)(4.00);
+            System.out.printf("Você deverá pagar R$ %.2f em multas.", multa);
+        } else {
+            multa = 0;
+            e = "0";
+            System.out.prinln("Multas: " + multa);
+            System.out.prinfln("Excesso: " + e);
+        }
     ler.close();
     }
 }
